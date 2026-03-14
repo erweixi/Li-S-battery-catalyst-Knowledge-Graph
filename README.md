@@ -10,7 +10,7 @@ This is an interactive visualization tool built based on ECharts, aiming to visu
 `graph.html`: This single-file structure contains the complete DOM structure, CSS style control panel, ECharts rendering logic, and the embedded original data of the graph (`rawGraph`). 
 ## 🚀 How to Use 
 1. **Local Execution**: No need to install any server environment or dependent libraries. Simply double-click the `graph.html` file and open it in any modern browser (such as Chrome, Edge, Safari) to interact with the graph.
-2. **Online Deployment**: Since it is a purely static HTML file, it can be extremely conveniently uploaded to a common GitHub project repository and, by enabling the **GitHub Pages** service, it can serve as an affiliated demonstration page for personal academic homepage or project code repository for others to access online. 
+2. **Online Deployment**: Open the link of  https://erweixi.github.io/Li-S-battery-catalyst-Knowledge-Graph/graph.html
 ## 🧠 Node Category Analysis 
 The graph shows the five core nodes in the screening system by using different colors for distinction: 
 * **🟩 Material (Material)**: Candidate battery catalyst phases that have undergone automated screening and evaluation (such as `Co2P`, `AgPdO2`, etc.), along with a comprehensive score (total_score).
