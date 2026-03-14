@@ -182,7 +182,13 @@ document.getElementById('resetBtn').addEventListener('click', () => {
   document.getElementById('scoreRange').value = 0;
   document.getElementById('repulsionRange').value = 380;
   document.getElementById('edgeRange').value = 130;
-  document.querySelectorAll('.cat-toggle').forEach(x => x.checked = true);
+  document.querySelectorAll('.cat-toggle').forEach(x => {
+    if (x.value === 'Material' || x.value === 'TextEvidence') {
+      x.checked = false;
+    } else {
+      x.checked = true;
+    }
+  });
   bindValueText();
   render();
 });
